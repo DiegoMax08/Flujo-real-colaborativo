@@ -7,3 +7,6 @@ print("Mediana:", mediana)
 ordenados = sorted(datos)
 print("Datos ordenados", ordenados)
 
+pares =[x for x in datos if x % 2 == 0]
+print("Cantidad de numeros pares:",
+      len(pares))
